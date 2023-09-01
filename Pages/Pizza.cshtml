@@ -1,0 +1,12 @@
+@page
+@model razor_pizzeria.Pages.Pizza
+@{
+    ViewData["Title"] = "Pizza";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <a class="nav-link text-dark" asp-area="" asp-page="/Forms/CustomPizza">Custom Pizzas</a>
+    <a class="nav-link text-dark" asp-area="" asp-page="/Checkout">Checkout Pizzas</a>
+</div>
